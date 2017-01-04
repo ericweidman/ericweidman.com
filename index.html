@@ -1,115 +1,161 @@
 <html>
+<style>
+    #photo1 {
+        text-align: center;
+        margin-top: 80px;
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+
+    #text {
+        text-align: center;
+        padding-bottom: 5%;
+        font-size: 18;
+    }
+
+    #fixedheader {
+        position: fixed;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        color: #CCC;
+        background: #333;
+        padding: 25px;
+        font-size: 20px;
+        z-index: 10;
+    }
+
+    #fixedfooter {
+        position: fixed;
+        text-align: center;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        color: #CCC;
+        background: #332;
+        padding: 8px;
+        font-size: 17px;
+    }
+
+    #b1 {
+        text-align: center;
+    }
+
+    #b2 {
+        text-align: center;
+    }
+
+    #b3 {
+        text-align: center;
+    }
+
+    #butts {
+        font-family: Helvetica;
+        padding-bottom: 40px;
+        font-size: 16;
+    }
+
+    body {
+        font-family: Helvetica !important;
+        background-color: #CCC !important;
+    }
+</style>
 
 <head>
-    <title> Eric Weidman </title>
-    <style>
-        body {
-            overflow: hidden;
-            font-family: Helvetica;
-            text-align: center;
-            background-color: #CCC;
-            margin: 80px 80px 100px 100px;
-        }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script>
+        $(document).ready(function() {
+            $("#page").addClass("animated zoomInDown");
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#this").hover(function() {
+                $("#this").addClass("animated bounce");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#this1").hover(function() {
+                $("#this1").addClass("animated bounce");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#this2").hover(function() {
+                $("#this2").addClass("animated bounce");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#fixedheader").addClass("animated rollIn");
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#fixedfooter").addClass("animated rollIn");
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#b1").click(function() {
+                $("body").addClass("animated hinge");
+                setTimeout(function() {
+                    window.location.replace("https://github.com/ericweidman");
+                }, 1700)
+            })
+        });
+    </script>
+</head>
+<title> Eric Weidman </title>
+<div class="container-fluid">
 
-        div#fixedheader {
-            position: fixed;
-            text-align: center;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            color: #CCC;
-            background: #333;
-            padding: 25px;
-            font-size: 20px;
-        }
-
-        div#fixedfooter {
-            position: fixed;
-            text-align: center;
-            bottom: 0px;
-            left: 0px;
-            width: 100%;
-            color: #CCC;
-            background: #332;
-            padding: 8px;
-            font-size: 17px;
-        }
-
-        div#b1 {
-            position: fixed;
-            text-align: center;
-            margin-right: auto;
-            left: 27%;
-            display: block;
-            bottom: 15px;
-            padding: 8px;
-        }
-
-        div#b2 {
-            position: fixed;
-            text-align: center;
-            margin-right: auto;
-            left: 46%;
-            display: block;
-            bottom: 31px;
-            padding: 8px;
-        }
-
-        div#b3 {
-            position: fixed;
-            text-align: center;
-            margin-right: auto;
-            left: 67%;
-            display: block;
-            bottom: 31px;
-            padding: 8px;
-        }
-
-        div#photo1 {
-
-
-        }
-
-        div#text {
-
-
-        }
-    </style>
-
-    <head>
-        <div id="fixedheader">Eric Weidman - Junior Java Developer</div>
-        <h1></h1>
-
-        <div id=photo1>
-            <img src="eric.jpg" alt="Eric" align="middle" style="width:600px, height:600px;">
+    <body>
+        <div class="row">
+            <div id="fixedheader">Eric Weidman - Junior Java Developer</div>
         </div>
-
-        <div id="text">
-            <p>Hey, I'm Eric. I'd like to help you create things that matter, or maybe things that don't. I'd just like to have fun while we do it.</p>
-            <p>I studied backend development with Java at the Iron Yard in Charleston and am currently seeking a career in software development.</p>
-            <p>If you're looking for someone who is eager to learn and ready to work, please, shoot me an email!</p>
-
+        <div id="page">
+            <div class="row">
+                <div id=photo1>
+                    <img src="eric.jpg" alt="Eric">
+                </div>
+            </div>
+            <div class="row">
+                <div id="text">
+                    <p>Hey, I'm Eric. I'd like to help you create things that matter, or maybe things that don't. I'd just like to have fun while we do it.</p>
+                    <p>I studied backend development with Java at the Iron Yard in Charleston and am currently seeking a career in software development.</p>
+                    <p>If you're looking for someone who is eager to learn and ready to work, please, shoot me an email!</p>
+                </div>
+            </div>
+            <div class="row" id="butts">
+                <div class="col-xs-4">
+                    <div id="b1">
+                        <img src="blacktocat.png" id="this" alt="github" style="width:100px;height:100px;">
+                        <br></br>Look at my code!
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div id="b2">
+                        <a href="EricResume.pdf" download><img src="download.png" id="this1" alt="Download" style="width:96px;height:96x;"></a>
+                        <br></br> Download my resume!
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div id="b3">
+                        <a href="mailto:ericweidman@gmail.com?Subject=I%20would%20love%20to%20hire%20you" target="_top"><img src="email.png" id="this2" alt="Email" style="width:110px;height:95px;"></a>
+                        <br></br>Email me!
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
-        <div id="b1">
-            <p>
-                <a href="https://github.com/ericweidman" target="blank"><img src="blacktocat.png" alt="github" style="width:100px;height:100px;"></a>
-                <br></br>Look at my code!
-
+        <div class="row">
+            <div id="fixedfooter">Follow me on Twitter - <a href="https://twitter.com/EricWeidman1" target="_blank">@EricWeidman1</a></div>
         </div>
-        <div id="b2">
-            <a href="EricResume.pdf" download><img src="download.png" alt="Download" style="width:96px;height:96x;"></a>
-            <br></br> Download my resume!
-        </div>
-        <div id="b3">
-            <a href="mailto:ericweidman@gmail.com?Subject=I%20would%20love%20to%20hire%20you" target="_top"><img src="email.png" alt="Email" style="width:110px;height:95px;"></a>
-            <br></br> Email me!
-        </div>
-
-        <div id="fixedfooter">Follow me on Twitter - <a href="https://twitter.com/EricWeidman1">@EricWeidman1</a></div>
-
-        <body>
-
+    </body>
 </html>
