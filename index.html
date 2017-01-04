@@ -1,117 +1,9 @@
 <html>
-<style>
-    #photo1 {
-        text-align: center;
-        margin-top: 80px;
-        padding-top: 20px;
-        padding-bottom: 45px;
-    }
-
-    #text {
-        text-align: center;
-        padding-bottom: 5%;
-        font-size: 18;
-    }
-
-    #fixedheader {
-        position: fixed;
-        text-align: center;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        color: #CCC;
-        background: #333;
-        padding: 25px;
-        font-size: 20px;
-        z-index: 10;
-    }
-
-    #fixedfooter {
-        position: fixed;
-        text-align: center;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        color: #CCC;
-        background: #332;
-        padding: 8px;
-        font-size: 17px;
-    }
-
-    #b1 {
-        text-align: center;
-    }
-
-    #b2 {
-        text-align: center;
-    }
-
-    #b3 {
-        text-align: center;
-    }
-
-    #butts {
-        font-family: Helvetica;
-        padding-bottom: 40px;
-        font-size: 16;
-    }
-
-    body {
-        font-family: Helvetica !important;
-        background-color: #CCC !important;
-    }
-</style>
-
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <script>
-        $(document).ready(function() {
-            $("#page").addClass("animated zoomInDown");
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#this").hover(function() {
-                $("#this").addClass("animated bounce");
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#this1").hover(function() {
-                $("#this1").addClass("animated bounce");
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#this2").hover(function() {
-                $("#this2").addClass("animated bounce");
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#fixedheader").addClass("animated rollIn");
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#fixedfooter").addClass("animated rollIn");
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#b1").click(function() {
-                $("body").addClass("animated hinge");
-                setTimeout(function() {
-                    window.location.replace("https://github.com/ericweidman");
-                }, 1700)
-            })
-        });
-    </script>
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
 </head>
 <title> Eric Weidman </title>
 <div class="container-fluid">
@@ -157,5 +49,8 @@
         <div class="row">
             <div id="fixedfooter">Follow me on Twitter - <a href="https://twitter.com/EricWeidman1" target="_blank">@EricWeidman1</a></div>
         </div>
+          <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+          <script src="jquery-3.1.1.min.js"></script>
+          <script src="index.js"></script>
     </body>
 </html>

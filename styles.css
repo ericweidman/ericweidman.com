@@ -1,0 +1,60 @@
+#photo1 {
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+#text {
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 18;
+}
+
+#fixedheader {
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: #333;
+    padding: 25px;
+    font-size: 20px;
+    z-index: 10;
+}
+
+#fixedfooter {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: #332;
+    padding: 8px;
+    font-size: 17px;
+}
+
+#b1 {
+    text-align: center;
+}
+
+#b2 {
+    text-align: center;
+}
+
+#b3 {
+    text-align: center;
+}
+
+#butts {
+    font-family: Helvetica;
+    padding-bottom: 40px;
+    font-size: 16;
+}
+
+body {
+    font-family: Helvetica !important;
+    background-color: #CCC !important;
+}
