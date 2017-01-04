@@ -29,4 +29,4 @@ $(document).ready(function() {
             window.location.replace("https://github.com/ericweidman");
         }, 1700)
     })
-  });
+});
