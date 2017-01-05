@@ -59,6 +59,13 @@ function core() {
   $('html, body').animate({
       scrollTop: $("#stuff").offset().top - 220},
       'slow');
+
+      $("#p1").addClass("animated slideInLeft");
+      $("#p2").addClass("animated slideInLeft");
+      $("#p3").addClass("animated slideInLeft");
+      $("#p4").addClass("animated slideInRight");
+      $("#p5").addClass("animated slideInRight");
+      $("#p6").addClass("animated slideInRight");
 };
 
 function contact() {
