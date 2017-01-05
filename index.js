@@ -19,9 +19,9 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#fixedheader").addClass("animated rollIn");
 });
-$(document).ready(function() {
-    $("#fixedfooter").addClass("animated rollIn");
-});
+// $(document).ready(function() {
+//     $("#fixedfooter").addClass("animated rollIn");
+// });
 $(document).ready(function() {
     $("#b1").click(function() {
         $("body").addClass("animated hinge");
@@ -30,3 +30,17 @@ $(document).ready(function() {
         }, 1700)
     })
 });
+
+//  $("#b1").addClass("animated bounceIn infinite");
+//  $("#b2").addClass("animated bounceIn");
+//  $("#b3").addClass("animated bounceIn");
+
+var waypoint = new Waypoint({
+  element: document.getElementById('butts'),
+  handler: function() {
+     $("#b1").addClass("animated bounceIn");
+     $("#b2").addClass("animated bounceIn");
+     $("#b3").addClass("animated bounceIn");
+  },
+  offset: 700
+})
