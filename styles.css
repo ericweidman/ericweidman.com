@@ -1,27 +1,27 @@
 #photo1 {
-    text-align: center;
     margin-top: 100px;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top:  60px;
+    text-align: center;
 }
 
 #text {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px;
     font-size: 18;
 }
 
 #fixedheader {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 28;
     position: fixed;
-    text-align: center;
     top: 0px;
     left: 0px;
     width: 100%;
     color: #CCC;
     background: #333;
     padding: 25px;
-    font-size: 20px;
     z-index: 10;
+    text-align: center;
 }
 
 #fixedfooter {
@@ -49,13 +49,12 @@
 
 #butts {
     font-family: Helvetica;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-top: 30px;
     font-size: 16;
 }
 
 #stuff{
-
   padding: 50px;
   text-align: center;
 
@@ -73,4 +72,27 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#p1{
+  animation-delay: .2s;
+}
+#p2{
+animation-delay: .2s;
+}
+#p3{
+animation-delay: .2s;
+}
+#p4{
+animation-delay: .2s;
+}
+#p5{
+animation-delay: .2s;
+}
+#p6{
+animation-delay: .2s;
+}
+#cool{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 28;
+  padding-bottom: 50px;
 }
