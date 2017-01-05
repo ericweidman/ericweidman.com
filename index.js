@@ -1,7 +1,4 @@
 
-
-
-
 $(document).ready(function() {
     $("#page").addClass("animated fadeIn");
 });
@@ -35,10 +32,6 @@ $(document).ready(function() {
     })
 });
 
-//  $("#b1").addClass("animated bounceIn infinite");
-//  $("#b2").addClass("animated bounceIn");
-//  $("#b3").addClass("animated bounceIn");
-
 var waypoint = new Waypoint({
   element: document.getElementById('butts'),
   handler: function() {
@@ -71,5 +64,10 @@ function core() {
 function contact() {
   $('html, body').animate({
     scrollTop: $("#fixedfooter").offset().top},
+      'slow');
+};
+function about() {
+  $('html, body').animate({
+    scrollTop: $("#page").offset().top},
       'slow');
 };
