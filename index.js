@@ -2,21 +2,29 @@
 $(document).ready(function() {
     $("#page").addClass("animated fadeIn");
 });
-$(document).ready(function() {
-    $("#this").hover(function() {
-        $("#this").addClass("animated bounce");
-    });
-});
-$(document).ready(function() {
-    $("#this1").hover(function() {
-        $("#this1").addClass("animated bounce");
-    });
-});
-$(document).ready(function() {
-    $("#this2").hover(function() {
-        $("#this2").addClass("animated bounce");
-    });
-});
+
+$( "#this" ).hover(
+  function() {
+    $( this ).addClass("animated bounce");
+  }, function() {
+    $( this ).removeClass( "animated bounce" );
+  }
+);
+$( "#this1" ).hover(
+  function() {
+    $( this ).addClass("animated bounce");
+  }, function() {
+    $( this ).removeClass( "animated bounce" );
+  }
+);
+$( "#this2" ).hover(
+  function() {
+    $( this ).addClass("animated bounce");
+  }, function() {
+    $( this ).removeClass( "animated bounce" );
+  }
+);
+
 $(document).ready(function() {
     $("#fixedheader").addClass("animated slideInDown");
 });
