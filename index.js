@@ -28,9 +28,7 @@ $( "#this2" ).hover(
 $(document).ready(function() {
     $("#fixedheader").addClass("animated slideInDown");
 });
-// $(document).ready(function() {
-//     $("#fixedfooter").addClass("animated rollIn");
-// });
+
 $(document).ready(function() {
     $("#b1").click(function() {
         $("body").addClass("animated hinge");
