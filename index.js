@@ -5,21 +5,21 @@ $(document).ready(function() {
 
 $( "#this" ).hover(
   function() {
-    $( this ).addClass("animated bounce");
+    $( this ).addClass("animated bounce infinite");
   }, function() {
     $( this ).removeClass( "animated bounce" );
   }
 );
 $( "#this1" ).hover(
   function() {
-    $( this ).addClass("animated bounce");
+    $( this ).addClass("animated bounce infinite");
   }, function() {
     $( this ).removeClass( "animated bounce" );
   }
 );
 $( "#this2" ).hover(
   function() {
-    $( this ).addClass("animated bounce");
+    $( this ).addClass("animated bounce infinite");
   }, function() {
     $( this ).removeClass( "animated bounce" );
   }
@@ -35,7 +35,7 @@ $(document).ready(function() {
     $("#b1").click(function() {
         $("body").addClass("animated hinge");
         setTimeout(function() {
-            window.location.href = "https://github.com/ericweidman" 
+            window.location.href = "https://github.com/ericweidman"
         }, 1700)
     })
 });
