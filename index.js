@@ -35,7 +35,7 @@ $(document).ready(function() {
     $("#b1").click(function() {
         $("body").addClass("animated hinge");
         setTimeout(function() {
-            window.location.replace("https://github.com/ericweidman");
+            window.location.href = "https://github.com/ericweidman" 
         }, 1700)
     })
 });
