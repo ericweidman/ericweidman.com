@@ -1,0 +1,152 @@
+#photo1 {
+    margin-top: 100px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#text {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18;
+}
+
+#fixedheader {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 28;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: #333;
+    padding: 10px;
+    z-index: 10;
+    text-align: center;
+    opacity: .9;
+}
+
+#fixedfooter {
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: #332;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+#b1 {
+    text-align: center;
+    cursor: pointer;
+}
+
+#b2 {
+    text-align: center;
+}
+
+#b3 {
+    text-align: center;
+}
+
+#butts {
+    font-family: Helvetica;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    font-size: 16;
+}
+
+#stuff {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+body {
+    font-family: Helvetica !important;
+    background-color: #ebeef4!important;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.para {
+    background-image: url("../images/keyboard.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p1 {
+    animation-delay: .2s;
+}
+
+#p2 {
+    animation-delay: .2s;
+}
+
+#p3 {
+    animation-delay: .2s;
+}
+
+#p4 {
+    animation-delay: .2s;
+}
+
+#p5 {
+    animation-delay: .2s;
+}
+
+#p6 {
+    animation-delay: .2s;
+}
+
+#cool {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 28;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .para {
+        background-attachment: scroll;
+        height: 10%;
+    }
+    #fixedheader {
+        font-size: 20;
+    }
+
+    #photo1{
+      padding-top: 15px;
+    }
+    #fixedfooter {
+        font-size: 16;
+    }
+    body {
+        max-width: 100%;
+
+    }
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}
