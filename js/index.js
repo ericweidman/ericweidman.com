@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#page").addClass("animated fadeIn");
 
-    $("#this").hover(
+    $("#gitbutton").hover(
         function() {
             $(this).addClass("animated bounce infinite");
         },
@@ -9,7 +9,7 @@ $(document).ready(function() {
             $(this).removeClass("animated bounce");
         }
     );
-    $("#this1").hover(
+    $("#resumebutton").hover(
         function() {
             $(this).addClass("animated bounce infinite");
         },
@@ -17,7 +17,7 @@ $(document).ready(function() {
             $(this).removeClass("animated bounce");
         }
     );
-    $("#this2").hover(
+    $("#emailbutton").hover(
         function() {
             $(this).addClass("animated bounce infinite");
         },
@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 
     var waypoint = new Waypoint({
-        element: document.getElementById('butts'),
+        element: document.getElementById('bottombuttons'),
         handler: function() {
             $("#b1").addClass("animated zoomIn");
             $("#b2").addClass("animated zoomIn");
