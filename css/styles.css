@@ -124,6 +124,10 @@ body {
         background-attachment: scroll;
         height: 10%;
     }
+    .para2 {
+        background-attachment: scroll;
+        height: 10%;
+    }
     #fixedheader {
         font-size: 20;
     }
