@@ -79,6 +79,15 @@ body {
     background-size: cover;
 }
 
+.para2 {
+    background-image: url("../images/code.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #p1 {
     animation-delay: .2s;
 }
