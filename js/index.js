@@ -63,6 +63,10 @@ $(document).ready(function() {
     })
 });
 
+function projects(){
+  window.location.replace('http://ericweidman.com/projects.html')
+}
+
 
 function core() {
     $('html, body').animate({
